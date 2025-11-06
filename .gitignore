@@ -1,8 +1,3 @@
-# Flutter build outputs - NEVER COMMIT THESE!
-web/
-build/
-.dart_tool/
-
 # Flutter/Dart specific
 .flutter-plugins
 .flutter-plugins-dependencies
