@@ -1,0 +1,19 @@
+# Flutter web build output
+web/
+build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
