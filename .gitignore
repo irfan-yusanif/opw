@@ -1,15 +1,26 @@
-# Flutter web build output
+# Flutter build outputs - NEVER COMMIT THESE!
 web/
 build/
+.dart_tool/
 
-# Environment files
+# Flutter/Dart specific
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+.metadata
+
+# Environment files - NEVER COMMIT SECRETS!
 .env
 .env.local
 .env.production
+*.env
 
 # IDE files
 .vscode/
 .idea/
+*.iml
+*.iws
 
 # Dependencies
 node_modules/
@@ -17,3 +28,8 @@ node_modules/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Generated files
+*.g.dart
+*.freezed.dart
+*.chopper.dart
